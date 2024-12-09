@@ -23,16 +23,17 @@ This project analyzes the comments from the top 10 YouTube search videos about t
 3. Setting Up the API Key
 
 This project requires an API key to access the YouTube Data API. Follow these steps to create a `config.py` file and store your API key securely:
-    1. Get an API Key:
+
+    1. **Get an API Key**:
         - Go to Google Cloud Console: https://console.cloud.google.com/
         - Enable the YouTube Data API
         - Generate an API key and copy it
-    2. Create a `config.py` File:
+    2. **Create a `config.py` File**:
         Create a file named `config.py` in the same place as `main.py`. 
         ```bash
         touch config.py
         ```
-    3. Put the API Key in the file
+    3. **Put the API Key in the file**
         ```bash
         API_KEY = "YOUR_API_KEY"
         ```
